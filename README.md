@@ -17,7 +17,7 @@
 
 [✨ Features](#-features) • [🚀 Quick Start](#-quick-start) • [📖 Documentation](#-documentation) • [🎯 Roadmap](#-roadmap) • [🤝 Contributing](#-contributing)
 
-<img src="https://raw.githubusercontent.com/rishirai13/digital-library-app/main/assets/banner.png" alt="Digital Library Banner" width="800"/>
+
 
 </div>
 
@@ -283,68 +283,21 @@ npm run build
 yarn build
 ```
 
-### 📝 Configuration
-
-Create a `application.yml` file:
-
-```yaml
-spring:
-  application:
-    name: digital-library-app
-  
-  datasource:
-    url: jdbc:postgresql://localhost:5432/library_db
-    username: your_username
-    password: your_password
-    driver-class-name: org.postgresql.Driver
-  
-  jpa:
-    hibernate:
-      ddl-auto: update
-    show-sql: true
-    properties:
-      hibernate:
-        format_sql: true
-  
-  security:
-    jwt:
-      secret-key: ${JWT_SECRET_KEY}
-      expiration: 86400000 # 24 hours
-  
-  mail:
-    host: smtp.gmail.com
-    port: 587
-    username: ${EMAIL_USERNAME}
-    password: ${EMAIL_PASSWORD}
-
-server:
-  port: 8080
-  compression:
-    enabled: true
-
-logging:
-  level:
-    com.library: DEBUG
-    org.springframework: INFO
-```
-
----
-
 ## 📱 Screenshots
 
 <div align="center">
 
 ### 🏠 Landing Page
-<img src="https://raw.githubusercontent.com/rishirai13/digital-library-app/main/assets/landing.png" alt="Landing Page" width="700"/>
+<img src="https://raw.githubusercontent.com/rishirai13/digital-library-app/main/assets/landing.png" alt="Landing Page" width="100"/>
 
 ### 📚 Book Catalog
-<img src="https://raw.githubusercontent.com/rishirai13/digital-library-app/main/assets/catalog.png" alt="Book Catalog" width="700"/>
+<img src="https://raw.githubusercontent.com/rishirai13/digital-library-app/main/assets/catalog.png" alt="Book Catalog" width="100"/>
 
 ### 👤 User Dashboard
-<img src="https://raw.githubusercontent.com/rishirai13/digital-library-app/main/assets/dashboard.png" alt="User Dashboard" width="700"/>
+<img src="https://raw.githubusercontent.com/rishirai13/digital-library-app/main/assets/dashboard.png" alt="User Dashboard" width="100"/>
 
 ### 📊 Analytics Dashboard
-<img src="https://raw.githubusercontent.com/rishirai13/digital-library-app/main/assets/analytics.png" alt="Analytics" width="700"/>
+<img src="https://raw.githubusercontent.com/rishirai13/digital-library-app/main/assets/analytics.png" alt="Analytics" width="100"/>
 
 </div>
 
