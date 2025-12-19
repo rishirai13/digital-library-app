@@ -693,7 +693,7 @@ copies or substantial portions of the Software.
 
 ### 🌟 If you find this project useful, please consider giving it a star!
 
-**Built with ☕ and 💖 by [Rishi Rai](https://github.com/rishirai13)**
+**Built with ☕ and 💖 by [Rishi Raii](https://github.com/rishirai13)**
 
 *"A library is not a luxury but one of the necessities of life."* - Henry Ward Beecher
 
